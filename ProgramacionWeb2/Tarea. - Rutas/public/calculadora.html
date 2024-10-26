@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <input type="text" id="pantalla" disabled>
+        <br>
+        <input id="boton" type="button" value="1" onclick="agregarPantalla('1')">
+        <input id="boton" type="button" value="2" onclick="agregarPantalla('2')">
+        <input id="boton" type="button" value="3" onclick="agregarPantalla('3')">
+        <input id="boton" type="button" value="+" onclick="agregarPantalla('+')">
+        <br>
+        <input id="boton" type="button" value="4" onclick="agregarPantalla('4')">
+        <input id="boton" type="button" value="5" onclick="agregarPantalla('5')">
+        <input id="boton" type="button" value="6" onclick="agregarPantalla('6')">
+        <input id="boton" type="button" value="-" onclick="agregarPantalla('-')">
+        <br>
+        <input id="boton" type="button" value="7" onclick="agregarPantalla('7')">
+        <input id="boton" type="button" value="8" onclick="agregarPantalla('8')">
+        <input id="boton" type="button" value="9" onclick="agregarPantalla('9')">
+        <input id="boton" type="button" value="*" onclick="agregarPantalla('*')">
+        <br>
+        <input id="boton" type="button" value="C" onclick="limparPantalla()">
+        <input id="boton" type="button" value="0" onclick="agregarPantalla('0')">
+        <input id="boton" type="button" value="=" onclick="calcular()">
+        <input id="boton" type="button" value="/" onclick="agregarPantalla('/')">
+
+    </div>
+    <script src="funciones/calculadora.js"></script>
+    <nav>
+        <a href="/inicio">Volver al inicio</a>
+        <a href="/generadorQR">Ir al generador de QR</a>
+    </nav>
+</body>
+
+</html>
