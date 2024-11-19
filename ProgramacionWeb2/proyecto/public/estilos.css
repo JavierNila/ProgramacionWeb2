@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    text-align: center; /* Centrar contenido */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    margin: 20px auto; /* Centrar la tabla */
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #666;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: calc(100% - 20px); /* Ajustar ancho */
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 5px 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
